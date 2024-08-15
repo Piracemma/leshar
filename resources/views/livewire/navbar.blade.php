@@ -17,6 +17,7 @@
                         <li><a wire:navigate href="{{ route('index') }}">Inicio</a></li>
                         <li><a wire:navigate href="{{ route('index') }}">teste</a></li>
                         <li><a wire:navigate href="{{ route('index') }}">teste 2</a></li>
+                        <li><a wire:navigate href="{{ route('login') }}">Login</a></li>
                     </ul>
 
                 </div>
