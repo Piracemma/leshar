@@ -1,6 +1,8 @@
 <nav class="w-full h-16 shadow-md shadow-neutral-300 dark:shadow-neutral-800 bg-white dark:bg-neutral-900">
     @auth
-        
+    
+    <a href="{{ route('sair') }}" class="text-red-700">Sair</a>
+
     @else
 
         <div class="flex justify-center">        
