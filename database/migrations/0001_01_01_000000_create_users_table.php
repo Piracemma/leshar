@@ -15,9 +15,10 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('email')->unique();
+            $table->text('sobrenome');
+            $table->boolean('empresa')->default(false);
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password')->nullable();
-            $table->text('sobrenome');
             $table->rememberToken();
             $table->timestamps();
         });

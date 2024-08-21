@@ -6,28 +6,19 @@
 
         <title>{{ $title ?? 'LeShar' }}</title>
 
-        <link rel="icon" type="image/x-icon" href="{{ url('/img/leshar.ico') }}" />
-        <meta name="theme-color" content="#171717" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="#171717" />
+        <link rel="icon" type="image/x-icon" href="{{ url('/img/leshar.ico') }}">
+        <meta name="theme-color" content="#171717">
+        <meta name="apple-mobile-web-app-status-bar-style" content="#171717">
 
         @persist('tallstackui')
-        <tallstackui:script />
+            <tallstackui:script />
         @endpersist
         @livewireStyles
-        
-        <style>
-            [x-cloak] {
-                display: none !important;
-            }
-        </style>
 
         @vite(['resources/css/app.css', 'resources/js/app.js'])
-
     </head>
-    <body class="min-h-screen bg-neutral-950">
+    <body class="min-h-screen bg-neutral-700">
         <x-toast />
-
-        <livewire:navbar />
 
         {{ $slot }}        
 

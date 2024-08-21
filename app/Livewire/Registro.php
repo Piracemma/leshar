@@ -2,44 +2,76 @@
 
 namespace App\Livewire;
 
+use App\Models\User;
+use App\Rules\AceitaTermos;
 use App\Rules\TipoUsuarioRegistro;
+use App\Rules\ValidaSenha;
 use Exception;
 use Google\Client;
-use Illuminate\Http\Request;
 use GuzzleHttp\Client as GuzzleHttpClient;
+use Illuminate\Auth\Events\Registered;
 use Illuminate\Support\Facades\Auth;
 use Livewire\Attributes\Layout;
 use Livewire\Attributes\Validate;
 use Livewire\Component;
-use TallStackUi\Traits\Interactions;
 
-class Login extends Component
+class Registro extends Component
 {
-    use Interactions;
-
-    #[Validate(['required','email'])]
-    public ?string $email;
+    #[Validate(['required', 'string', 'max:255'])]
+    public ?string $name;
 
     #[Validate(['required', 'string'])]
+    public ?string $sobrenome;
+
+    #[Validate(['required','email', 'confirmed', 'max:255', 'unique:'.User::class])]
+    public string $email = '';
+
+    #[Validate(['required', 'email'], as:'-email')]
+    public string $email_confirmation = '';
+
+    #[Validate(['required', 'string', 'min:8', new ValidaSenha])]
     public ?string $password;
+
+    #[Validate(['boolean', 'required', new AceitaTermos])]
+    public bool $aceito_termos = false;
 
     #[Validate(['string', new TipoUsuarioRegistro])]
     public string $tipo;
 
-    #[Validate(['boolean'])]
-    public bool $remember = false;
-
-    #[Layout('components/layouts/guest')]
+    #[Layout('components.layouts.guest')]
     public function render()
     {
-        return view('livewire.login');
+        return view('livewire.registro');
+    }
+
+    public function register()
+    {
+        $this->validate();
+
+        $empresa = $this->tipo == 'empresa' ? true : false;
+
+        $user = User::query()->create([
+            'name' => $this->name,
+            'sobrenome' => $this->sobrenome,
+            'email' => $this->email,
+            'empresa' => $empresa,
+            'password' => $this->password
+        ]);
+
+        Auth::login($user);
+
+        request()->session()->regenerate();
+
+        // event(new Registered($user));
+
+        $this->redirectRoute('index', navigate:true);
     }
 
     public function loginGoogle()
     {
 
         try {
-
+            $this->validateOnly('tipo');
             
             $client = new Client();
     
@@ -69,24 +101,6 @@ class Login extends Component
 
         }
 
-    }
 
-    public function logar()
-    {
-        $this->validate();
-
-        $empresa = $this->tipo == 'empresa' ? true : false;
-
-        if (Auth::attempt(['email' => $this->email, 'password' => $this->password, 'empresa' => $empresa], $this->remember)) {
-
-            request()->session()->regenerate();
-            $this->redirectIntended('/');
-
-        } else {
-
-            $this->toast()->error('Erro ao logar!', 'Verifique os dados passados.')->send();
-
-        }
-        
     }
 }
