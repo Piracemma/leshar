@@ -711,16 +711,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.368.0",
+            "version": "v0.369.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "edc08087aa3ca63d3b74f24d59f1d2caab39b5d9"
+                "reference": "002f610e4c3acf0636b4fb1f46314a2097e1c8b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/edc08087aa3ca63d3b74f24d59f1d2caab39b5d9",
-                "reference": "edc08087aa3ca63d3b74f24d59f1d2caab39b5d9",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/002f610e4c3acf0636b4fb1f46314a2097e1c8b4",
+                "reference": "002f610e4c3acf0636b4fb1f46314a2097e1c8b4",
                 "shasum": ""
             },
             "require": {
@@ -749,9 +749,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.368.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.369.0"
             },
-            "time": "2024-07-11T01:08:44+00:00"
+            "time": "2024-08-14T20:31:16+00:00"
         },
         {
             "name": "google/auth",
@@ -1288,16 +1288,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v11.20.0",
+            "version": "v11.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "3cd7593dd9b67002fc416b46616f4d4d1da3e571"
+                "reference": "9d9d36708d56665b12185493f684abce38ad2d30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/3cd7593dd9b67002fc416b46616f4d4d1da3e571",
-                "reference": "3cd7593dd9b67002fc416b46616f4d4d1da3e571",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/9d9d36708d56665b12185493f684abce38ad2d30",
+                "reference": "9d9d36708d56665b12185493f684abce38ad2d30",
                 "shasum": ""
             },
             "require": {
@@ -1490,20 +1490,20 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-08-06T14:39:21+00:00"
+            "time": "2024-08-20T15:00:52+00:00"
         },
         {
             "name": "laravel/prompts",
-            "version": "v0.1.24",
+            "version": "v0.1.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/prompts.git",
-                "reference": "409b0b4305273472f3754826e68f4edbd0150149"
+                "reference": "7b4029a84c37cb2725fc7f011586e2997040bc95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/prompts/zipball/409b0b4305273472f3754826e68f4edbd0150149",
-                "reference": "409b0b4305273472f3754826e68f4edbd0150149",
+                "url": "https://api.github.com/repos/laravel/prompts/zipball/7b4029a84c37cb2725fc7f011586e2997040bc95",
+                "reference": "7b4029a84c37cb2725fc7f011586e2997040bc95",
                 "shasum": ""
             },
             "require": {
@@ -1546,9 +1546,9 @@
             "description": "Add beautiful and user-friendly forms to your command-line applications.",
             "support": {
                 "issues": "https://github.com/laravel/prompts/issues",
-                "source": "https://github.com/laravel/prompts/tree/v0.1.24"
+                "source": "https://github.com/laravel/prompts/tree/v0.1.25"
             },
-            "time": "2024-06-17T13:58:22+00:00"
+            "time": "2024-08-12T22:06:33+00:00"
         },
         {
             "name": "laravel/serializable-closure",
@@ -1679,16 +1679,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "2.5.2",
+            "version": "2.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "df09d5b6a4188f8f3c3ab2e43a109076a5eeb767"
+                "reference": "b650144166dfa7703e62a22e493b853b58d874b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/df09d5b6a4188f8f3c3ab2e43a109076a5eeb767",
-                "reference": "df09d5b6a4188f8f3c3ab2e43a109076a5eeb767",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/b650144166dfa7703e62a22e493b853b58d874b0",
+                "reference": "b650144166dfa7703e62a22e493b853b58d874b0",
                 "shasum": ""
             },
             "require": {
@@ -1701,8 +1701,8 @@
             },
             "require-dev": {
                 "cebe/markdown": "^1.0",
-                "commonmark/cmark": "0.31.0",
-                "commonmark/commonmark.js": "0.31.0",
+                "commonmark/cmark": "0.31.1",
+                "commonmark/commonmark.js": "0.31.1",
                 "composer/package-versions-deprecated": "^1.8",
                 "embed/embed": "^4.4",
                 "erusev/parsedown": "^1.0",
@@ -1781,7 +1781,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-08-14T10:56:57+00:00"
+            "time": "2024-08-16T11:46:16+00:00"
         },
         {
             "name": "league/config",
@@ -2055,16 +2055,16 @@
         },
         {
             "name": "livewire/livewire",
-            "version": "v3.5.4",
+            "version": "v3.5.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/livewire/livewire.git",
-                "reference": "b158c6386a892efc6c5e4682e682829baac1f933"
+                "reference": "597a2808d8d3001cc3ed5ce89a6ebab00f83b80f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/livewire/livewire/zipball/b158c6386a892efc6c5e4682e682829baac1f933",
-                "reference": "b158c6386a892efc6c5e4682e682829baac1f933",
+                "url": "https://api.github.com/repos/livewire/livewire/zipball/597a2808d8d3001cc3ed5ce89a6ebab00f83b80f",
+                "reference": "597a2808d8d3001cc3ed5ce89a6ebab00f83b80f",
                 "shasum": ""
             },
             "require": {
@@ -2072,6 +2072,7 @@
                 "illuminate/routing": "^10.0|^11.0",
                 "illuminate/support": "^10.0|^11.0",
                 "illuminate/validation": "^10.0|^11.0",
+                "laravel/prompts": "^0.1.24",
                 "league/mime-type-detection": "^1.9",
                 "php": "^8.1",
                 "symfony/console": "^6.0|^7.0",
@@ -2080,7 +2081,6 @@
             "require-dev": {
                 "calebporzio/sushi": "^2.1",
                 "laravel/framework": "^10.15.0|^11.0",
-                "laravel/prompts": "^0.1.6",
                 "mockery/mockery": "^1.3.1",
                 "orchestra/testbench": "^8.21.0|^9.0",
                 "orchestra/testbench-dusk": "^8.24|^9.1",
@@ -2119,7 +2119,7 @@
             "description": "A front-end framework for Laravel.",
             "support": {
                 "issues": "https://github.com/livewire/livewire/issues",
-                "source": "https://github.com/livewire/livewire/tree/v3.5.4"
+                "source": "https://github.com/livewire/livewire/tree/v3.5.6"
             },
             "funding": [
                 {
@@ -2127,7 +2127,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-07-15T18:27:32+00:00"
+            "time": "2024-08-19T11:52:18+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -2232,16 +2232,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "3.7.0",
+            "version": "3.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "cb4374784c87d0a0294e8513a52eb63c0aff3139"
+                "reference": "bbd3eef89af8ba66a3aa7952b5439168fbcc529f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/cb4374784c87d0a0294e8513a52eb63c0aff3139",
-                "reference": "cb4374784c87d0a0294e8513a52eb63c0aff3139",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/bbd3eef89af8ba66a3aa7952b5439168fbcc529f",
+                "reference": "bbd3eef89af8ba66a3aa7952b5439168fbcc529f",
                 "shasum": ""
             },
             "require": {
@@ -2334,7 +2334,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-07-16T22:29:20+00:00"
+            "time": "2024-08-19T06:22:39+00:00"
         },
         {
             "name": "nette/schema",
@@ -3699,16 +3699,16 @@
         },
         {
             "name": "stripe/stripe-php",
-            "version": "v15.6.0",
+            "version": "v15.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "4209ec90509656623c8976e70b31c80070e355da"
+                "reference": "3e8161c1d7d1e9fb79751a693cd6123550f6ce21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/4209ec90509656623c8976e70b31c80070e355da",
-                "reference": "4209ec90509656623c8976e70b31c80070e355da",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/3e8161c1d7d1e9fb79751a693cd6123550f6ce21",
+                "reference": "3e8161c1d7d1e9fb79751a693cd6123550f6ce21",
                 "shasum": ""
             },
             "require": {
@@ -3752,9 +3752,9 @@
             ],
             "support": {
                 "issues": "https://github.com/stripe/stripe-php/issues",
-                "source": "https://github.com/stripe/stripe-php/tree/v15.6.0"
+                "source": "https://github.com/stripe/stripe-php/tree/v15.7.0"
             },
-            "time": "2024-08-08T23:56:48+00:00"
+            "time": "2024-08-15T21:17:26+00:00"
         },
         {
             "name": "symfony/clock",
@@ -6058,28 +6058,32 @@
         },
         {
             "name": "tallstackui/tallstackui",
-            "version": "v1.34.1",
+            "version": "v1.35.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tallstackui/tallstackui.git",
-                "reference": "1b3f5115739766aeab0d9cee8d402f44cbb0fda1"
+                "reference": "a37b82e5d642b7a603fffc2bd04a9027fd4ce00a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tallstackui/tallstackui/zipball/1b3f5115739766aeab0d9cee8d402f44cbb0fda1",
-                "reference": "1b3f5115739766aeab0d9cee8d402f44cbb0fda1",
+                "url": "https://api.github.com/repos/tallstackui/tallstackui/zipball/a37b82e5d642b7a603fffc2bd04a9027fd4ce00a",
+                "reference": "a37b82e5d642b7a603fffc2bd04a9027fd4ce00a",
                 "shasum": ""
             },
             "require": {
-                "laravel/framework": "^10.0|^11.0",
+                "illuminate/console": "^10.0|^11.0",
+                "illuminate/contracts": "^10.0|^11.0",
+                "illuminate/pagination": "^10.0|^11.0",
+                "illuminate/support": "^10.0|^11.0",
+                "illuminate/view": "^10.0|^11.0",
                 "livewire/livewire": "^3.4.9",
                 "php": "^8.1"
             },
             "require-dev": {
                 "larastan/larastan": "^2.7",
                 "laravel/pint": "^1.13",
-                "orchestra/testbench": "8.x-dev|9.x-dev",
-                "orchestra/testbench-dusk": "8.x-dev|9.x-dev",
+                "orchestra/testbench": "^8.0|^9.0",
+                "orchestra/testbench-dusk": "^8.0|^9.0",
                 "pestphp/pest": "^2.0",
                 "pestphp/pest-plugin-type-coverage": "^2.2",
                 "rector/rector": "^1.0"
@@ -6090,7 +6094,9 @@
                     "providers": [
                         "TallStackUi\\TallStackUiServiceProvider"
                     ],
-                    "aliases": []
+                    "aliases": {
+                        "TallStackUi": "TallStackUi\\Facades\\TallStackUi"
+                    }
                 }
             },
             "autoload": {
@@ -6111,7 +6117,7 @@
             "description": "TallStackUI is a powerful suite of Blade components that elevate your workflow of Livewire applications.",
             "support": {
                 "issues": "https://github.com/tallstackui/tallstackui/issues",
-                "source": "https://github.com/tallstackui/tallstackui/tree/v1.34.1"
+                "source": "https://github.com/tallstackui/tallstackui/tree/v1.35.3"
             },
             "funding": [
                 {
@@ -6119,7 +6125,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-08-05T23:05:36+00:00"
+            "time": "2024-08-20T17:00:00+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -7420,21 +7426,21 @@
         },
         {
             "name": "pestphp/pest",
-            "version": "v2.35.0",
+            "version": "v2.35.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pestphp/pest.git",
-                "reference": "d0ff2c8ec294b7aa7fcb0f3ddc4fdec864234646"
+                "reference": "b13acb630df52c06123588d321823c31fc685545"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest/zipball/d0ff2c8ec294b7aa7fcb0f3ddc4fdec864234646",
-                "reference": "d0ff2c8ec294b7aa7fcb0f3ddc4fdec864234646",
+                "url": "https://api.github.com/repos/pestphp/pest/zipball/b13acb630df52c06123588d321823c31fc685545",
+                "reference": "b13acb630df52c06123588d321823c31fc685545",
                 "shasum": ""
             },
             "require": {
                 "brianium/paratest": "^7.3.1",
-                "nunomaduro/collision": "^7.10.0|^8.3.0",
+                "nunomaduro/collision": "^7.10.0|^8.4.0",
                 "nunomaduro/termwind": "^1.15.1|^2.0.1",
                 "pestphp/pest-plugin": "^2.1.1",
                 "pestphp/pest-plugin-arch": "^2.7.0",
@@ -7512,7 +7518,7 @@
             ],
             "support": {
                 "issues": "https://github.com/pestphp/pest/issues",
-                "source": "https://github.com/pestphp/pest/tree/v2.35.0"
+                "source": "https://github.com/pestphp/pest/tree/v2.35.1"
             },
             "funding": [
                 {
@@ -7524,7 +7530,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-08-02T10:57:29+00:00"
+            "time": "2024-08-20T21:41:50+00:00"
         },
         {
             "name": "pestphp/pest-plugin",
